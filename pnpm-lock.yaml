@@ -12,6 +12,7 @@ specifiers:
   react-dom: 18.2.0
   rsc-server-data: 0.0.2-beta.2
   typescript: 4.9.5
+  use-node: ^0.0.2
 
 dependencies:
   '@types/node': 18.15.0
@@ -24,6 +25,7 @@ dependencies:
   react-dom: 18.2.0_react@18.2.0
   rsc-server-data: 0.0.2-beta.2_ld2jel3hspngo3u5lti2kgl2sq
   typescript: 4.9.5
+  use-node: 0.0.2_ld2jel3hspngo3u5lti2kgl2sq
 
 devDependencies:
   prettier: 2.8.4
@@ -2124,6 +2126,19 @@ packages:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
     dependencies:
       punycode: 2.3.0
+    dev: false
+
+  /use-node/0.0.2_ld2jel3hspngo3u5lti2kgl2sq:
+    resolution: {integrity: sha512-TmHrPmU8CjVkCYIGcVaFn9uAk8DT6zoC+jLQgg79kB5zrhV0LKtkI0NYM+zbHKSmQNpiUKO2DOzBcenl3DCNrw==}
+    engines: {node: '>=18.14.0'}
+    peerDependencies:
+      next: ^13.2.4
+      react: ^18.2.0
+      react-dom: ^18.2.0
+    dependencies:
+      next: 13.2.4_biqbaboplfbrettd7655fr4n2y
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
     dev: false
 
   /which-boxed-primitive/1.0.2:
